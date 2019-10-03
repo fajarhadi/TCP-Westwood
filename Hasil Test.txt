@@ -1,0 +1,54 @@
+default : 
+avg capacity : 5.04 mbit/s
+avg througput : 4.65 (92.2%)
+95-th percentile per-package Q delay : 239
+95-th percentile signal delay (RTT) : 617
+
+win 50/2 :
+avg capacity : 5.04 Mbit/s
+avg througput : 3.63 Mbit/s (72.1%)
+95-th percentile per-package Q delay : 117
+95-th percentile signal delay (RTT) : 339
+report?CumiTempur-1549390452-giquiepe
+
+AIMD ++i ; i--:
+avg capacity : 5.04 Mbit/s
+avg througput : 4.49 Mbit/s (89%)
+95-th percentile per-package Q delay : 243
+95-th percentile signal delay (RTT) : 603
+report?CumiTempur-1549808427-oobaatej
+
+AIMD win 2 max 50:
+avg capacity : 5.04 Mbit/s
+avg througput : 4.68 Mbit/s (92.8%)
+95-th percentile per-package Q delay : 236
+95-th percentile signal delay (RTT) : 604
+report?CumiTempur-1549809193-ieveishe
+
+AIMD win 25 max 45 :
+avg capacity : 5.04 Mbit/s
+avg througput : 4.60 Mbit/s (91.2%)
+95-th percentile per-package Q delay : 217
+95-th percentile signal delay (RTT) : 566
+report?CumiTempur-1549960420-oumadosa
+
+AIMD win 2 + Slow Start :
+avg capacity : 5.04 Mbit/s
+avg througput : 4.55 Mbit/s (90.3%)
+95-th percentile per-package Q delay : 247
+95-th percentile signal delay (RTT) : 614
+report?CumiTempur-1550063793-ianeicee
+
+TCP WESTWOOD win 20 segment size win-10
+avg capacity : 5.04 Mbit/s
+avg througput : 4.69 Mbit/s (93.0%)
+95-th percentile per-package Q delay : 239
+95-th percentile signal delay (RTT) : 613
+report?CumiTempur-1550114508-oodaebah
+
+TCP WESTWOOD win 2 segment size according to DUPACK
+avg capacity : 5.04 Mbit/s
+avg througput : 4.74 Mbit/s (94.0%)
+95-th percentile per-package Q delay : 239
+95-th percentile signal delay (RTT) : 616
+report?CumiTempur-1550737048-iejaixoo
